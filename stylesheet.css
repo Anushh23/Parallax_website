@@ -1,0 +1,120 @@
+body,html{
+    margin:0;
+    padding:0;
+    font-size: 18px;
+    line-height: 1.8em;
+    color: #666;
+}
+.img1,.img2,.img3,.img4,.img5,.img6,.img7,.img8,.img,.img9{
+    position: relative;
+    background-size: cover;
+    background-repeat:no-repeat;
+    opacity: 0.7;
+    background-attachment: fixed;
+}
+.img{
+    background-image: url('images/wallpaper.jpg');
+    min-height: 750px;
+     opacity: 0.8;
+}
+.img1{
+    background-image: url('images/fleabag_landscape.jpg');
+    min-height: 550px;
+}
+.img2{
+    background-image: url('images/instagram-landscape.jpeg');
+    min-height: 500px;
+}
+.img3{
+    background-image: url('images/suits-landscape.jpeg');
+    min-height: 550px;
+}
+.img4{
+    background-image: url('images/gg-landscape.jpeg');
+    min-height: 550px;
+}
+.img5{
+    background-image: url('images/endOfTheFWorld.jpg');
+    min-height: 550px;
+}
+.img6{
+    background-image: url('images/lupin.jpg');
+    min-height: 600px;
+}
+.img7{
+    background-image: url('images/dark.jpg');
+    min-height: 600px;
+}
+.img8{
+    background-image: url('images/himym.jpg');
+    min-height: 600px;
+}
+.img9{
+    background-image: url('images/nyc-image.jfif');
+    min-height: 750px;
+    opacity: 0.9;
+}
+section{
+    padding: 10px;
+}
+section.darkk{
+    background-color:rgba(0, 0, 0, 0.644);
+    color: whitesmoke;
+}
+section h2{
+    text-align: center;
+}
+:not(.darkk) a:link, a:visited{
+    color:#666;
+    text-decoration: underline;
+}
+:not(.darkk) a:hover{
+    color:rgb(126, 125, 125);
+}
+a.darkk:visited{
+    color:white;
+}
+a.darkk:link{
+    color:white;
+}
+a.darkk:hover{
+    color:cornsilk;
+}
+/* .ptext1{
+      /* position: absolute; 
+      height: 50px;
+      text-align: center; 
+      vertical-align: middle;  
+}
+.txt{
+    font-size: 28px;    
+} */
+.ptext1{
+    position:absolute;
+    top:45%;
+    width:100%;
+    text-align:center;
+    color:#111;
+    font-size:28px;
+    letter-spacing:8px;
+    text-transform:uppercase;
+  }
+  
+  .ptext1 .txt, .ptext1.txt1{
+    background-color:#111;
+    color:#fff;
+    padding:20px;
+  }
+  .img1:hover,.img2:hover,.img3:hover,.img4:hover,.img5:hover,.img6:hover,.img7:hover,.img8:hover{
+      opacity:0.9;
+  }
+  /* .ptext1.txt1{
+      color:#111;
+      word-spacing: 5px;
+      font-weight:bold; 
+  }*/
+  /* footer{
+      text-align: center;
+      background-color:#555;
+      color: #fff;
+  } */
